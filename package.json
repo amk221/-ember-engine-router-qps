@@ -39,6 +39,8 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
     "ember-data": "~4.7.1",
+    "ember-engines": "^0.8.23",
+    "ember-engines-router-service": "^0.4.0",
     "ember-fetch": "^8.1.2",
     "ember-load-initializers": "^2.1.2",
     "ember-page-title": "^7.0.0",
@@ -65,5 +67,13 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/foo"
+    ]
+  },
+  "dependencies": {
+    "@ember/legacy-built-in-components": "^0.4.1"
   }
 }

@@ -1,0 +1,14 @@
+<h2>Foo Engine</h2>
+
+Click me first:
+
+<LinkTo @route='application' @query={{hash page=2}}>Go to page 2</LinkTo>
+
+<br />
+<br />
+
+Then click me:
+
+<button type='button' {{on 'click' this.goToPage1}}>Go to Page 1</button>
+
+{{outlet}}
